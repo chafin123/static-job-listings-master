@@ -4,16 +4,95 @@
     --light-cyan-filter: hsl(180, 31%, 95%);
     --dark-grayish-cyan: hsl(180, 8%, 52%);
     --very-dark-cyan: hsl(180, 14%, 20%);
-}
-body {
     font-size: 62.5%;
 }
-.myContainer {
-    width: 60%;
+body {
+    font-size: 1.4rem;
+    font-family: 'Spartan', sans-serif;;
+}
+h5 {
+    font-size: 1.8rem;
+    font-weight: 700
 }
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+.container {
+    width: 90%;
+}
+.brandThumb {
+    height: 5rem;
+    width: auto;
+    position: relative;
+    bottom: 3rem;
+    right: 12.5rem;
+}
+.brandName {
+    color: var(--dark-cyan);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: .6rem;
+}
+.badge {
+    font-size: 1.4rem;
+    padding-top: .8rem;
+    font-weight: 500;
+}
+.newBadge {
+    background: var(--dark-cyan);
+}
+.featuredBadge {
+    background: black;
+}
+.importantBadge {
+    margin-left: .4rem;
+}
+.positionHeader {
+    margin-top: .5rem;
+}
+.searchBadge {
+    background-color: var(--light-cyan-filter);
+    color: var(--dark-cyan);
+    margin: 1rem 0 0 1rem;
+    font-weight: 700;
+}
+.card {
+    box-shadow: 10px 1px 10px var(--light-cyan-filter);
+    border: none;
+    border-left: 5px solid var(--dark-cyan);
+    border-radius: 2px;
+}
+.card-header {
+    border-bottom: none;
+    background: white;
+}
+.card-body {
+    border-top: none;
+}
+.lineContainer {
+    border-top: 1px solid black;
+    margin: auto;
+    width: 90%;
+    opacity: 60%;
+}
+.dot {
+    height: .3rem;
+    width: .3rem;
+    background: var(--dark-grayish-cyan);
+    border-radius: 50%;
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 2.2rem;
+    right: .3rem;
+    opacity: 60%;
+}
+.secondDot {
+    left: .3rem;
+}
+.subText {
+    opacity: 60%;
 }
