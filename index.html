@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap" rel="stylesheet">
   <link href="./styles/styles.css" rel="stylesheet">
+  <script src="./script.js" defer></script>
   <title>Frontend Mentor | Job Listings</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,293 +19,34 @@
   </style>
 </head>
 <body>
-  <!-- Item Start -->
-  <div class="container">
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <img src="./images/photosnap.svg" class="brandThumb" alt="Photosnap" srcset="">
-        <div class="row">
-          <div class="col brandName text-start">
-            Photosnap
-            <span class="badge rounded-pill importantBadge newBadge">
-              NEW!
-            </span>
-            <span class="badge rounded-pill importantBadge featuredBadge">
-              FEATURED
-            </span>
-          </div>
-        </div>
-        <div class="row text-start positionHeader">
-          <h5>Senior Frontend Developer</h5>
-        </div>
-        <div class="row text-start">
-          <div class="col">
-            <p class="subText">1d ago</p>
-            <span class="dot"></span>
-          </div>
-            <div class="col">
-            <p class="subText fullTimeGroup">Full Time</p>
-            <span class="dot secondDot"></span>
-          </div>
-          <div class="col usaOnlyGroup">
-            <p class="subText">USA only</p>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-      <div class="lineContainer"></div>
-      <div class="card-body text-start">
-        <!-- Role -->
-        <span class="badge searchBadge frontedGroup">
+  <div class="container searchBox">
+    <div class="card">
+      <div class="row">
+
+        <span class="badge searchBadge searchButton">
           Frontend
         </span>
         <!-- Level -->
-        <span class="badge searchBadge seniorGroup">
+        <span class="badge searchBadge searchButton">
           Senior
         </span>
         <!-- Languages -->
-        <span class="badge searchBadge languages htmlGroup">
+        <span class="badge searchBadge searchButton">
           HTML
         </span>
-        <span class="badge searchBadge languages cssGroup">
+        <span class="badge searchBadge searchButton">
           CSS
         </span>
-        <span class="badge searchBadge languages javaScriptGroup">
+        <span class="badge searchBadge searchButton">
           JavaScript
         </span>
       </div>
     </div>
-    <!-- Item End -->
-   <!-- Item start -->
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <img src="./images/manage.svg" class="brandThumb" alt="Photosnap" srcset="">
-        <div class="row">
-          <div class="col brandName text-start">
-            Manage
-            <span class="badge rounded-pill importantBadge newBadge">
-              NEW!
-            </span>
-            <span class="badge rounded-pill importantBadge featuredBadge">
-              FEATURED
-            </span>
-          </div>
-        </div>
-        <div class="row text-start positionHeader">
-          <h5>Fullstack Developer</h5>
-        </div>
-        <div class="row text-start">
-          <div class="col">
-            <p class="subText">1d ago</p>
-            <span class="dot"></span>
-          </div>
-            <div class="col partTimeGroup">
-            <p class="subText">Part Time</p>
-            <span class="dot secondDot"></span>
-          </div>
-          <div class="col remoteGroup">
-            <p class="subText">Remote</p>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-      <div class="lineContainer"></div>
-      <div class="card-body text-start">
-        <!-- Role -->
-        <span class="badge searchBadge fullStackGroup">
-          Fullstack
-        </span>
-        <!-- Level -->
-        <span class="badge searchBadge midWeightGroup">
-          Midweight
-        </span>
-        <!-- Languages -->
-        <span class="badge searchBadge languages pythonGroup">
-          Python
-        </span>
-        <span class="badge searchBadge languages reactGroup">
-          React
-        </span>
-      </div>
-    </div>
-    <!-- item End -->
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <!-- Item Start -->
-        Account
-        NEW!
-        Junior Frontend Developer
-        2d ago
-        Part Time
-        USA only
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Frontend
-        <!-- Level -->
-        Junior
-        <!-- Languages -->
-        JavaScript
-        <!-- Tools -->
-        React
-        Sass
-        <!-- Item End -->
-      </div>
-    </div>
-    
-    <div class="card text-cente mt-5">
-      <div class="card-header">
-        <!-- Item Start -->
-        MyHome
-        Junior Frontend Developer
-        5d ago
-        Contract
-        USA only
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Frontend
-        <!-- Level -->
-        Junior
-        <!-- Languages -->
-        CSS
-        JavaScript
-        <!-- Item End -->
-      </div>
-    </div>
-    <div class="card text-center mt-5">
-      <div class="card-header">
-      <!-- Item Start -->
-      Loop Studios
-      Software Engineer
-      1w ago
-      Full Time
-      Worldwide
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Fullstack
-        <!-- Level -->
-        Midweight
-        <!-- Languages -->
-        JavaScript
-        Ruby
-        <!-- Tools -->
-        Sass
-        <!-- Item End -->
-      </div>
-    </div>
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <!-- Item Start -->
-        FaceIt
-        Junior Backend Developer
-        2w ago
-        Full Time
-        UK only
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Backend
-        <!-- Level -->
-        Junior
-        <!-- Languages -->
-        Ruby
-        <!-- Tools -->
-        RoR
-        <!-- Item End -->
-      </div>
-    </div>
-    <div class="card text-center mt-5">
-      <div class="card-head">
-
-        <!-- Item Start -->
-        Shortly
-        Junior Developer
-        2w ago
-        Full Time
-        Worldwide
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Frontend
-        <!-- Level -->
-        Junior
-        <!-- Languages -->
-        HTML
-        JavaScript
-        <!-- Tools -->
-        Sass
-        <!-- Item End -->
-      </div>
-    </div>
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <!-- Item Start -->
-        Insure
-        Junior Frontend Developer
-        2w ago
-        Full Time
-        USA only
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Frontend
-        <!-- Level -->
-        Junior
-        <!-- Languages -->
-        JavaScript
-        <!-- Tools -->
-        Vue
-        Sass
-        <!-- Item End -->
-      </div>
-    </div>
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <!-- Item Start -->
-        Eyecam Co.
-        Full Stack Engineer
-        3w ago
-        Full Time
-        Worldwide
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Fullstack
-        <!-- Level -->
-        Midweight
-        <!-- Languages -->
-        JavaScript
-        Python
-        <!-- Tools -->
-        Django
-        <!-- Item End -->
-      </div>
-    </div>
-    <div class="card text-center mt-5">
-      <div class="card-header">
-        <!-- Item Start -->
-        The Air Filter Company
-        Front-end Dev
-        1mo ago
-        Part Time
-        Worldwide
-      </div>
-      <div class="card-body">
-        <!-- Role -->
-        Frontend
-        <!-- Level -->
-        Junior
-        <!-- Languages -->
-        JavaScript
-        <!-- Tools -->
-        React
-        Sass
-        <!-- Item End -->
-      </div>
-    </div>
   </div>
+ 
+    <div class="job-list">
+
+    </div>
 <div class="attribution">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.

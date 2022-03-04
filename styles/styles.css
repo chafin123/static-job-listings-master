@@ -8,7 +8,8 @@
 }
 body {
     font-size: 1.4rem;
-    font-family: 'Spartan', sans-serif;;
+    font-family: 'Spartan', sans-serif;
+    background-color: var(--light-cyan-background);
 }
 h5 {
     font-size: 1.8rem;
@@ -20,8 +21,9 @@ h5 {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-.container {
+.job-list {
     width: 90%;
+    margin: auto;
 }
 .brandThumb {
     height: 5rem;
@@ -62,8 +64,13 @@ h5 {
 .card {
     box-shadow: 10px 1px 10px var(--light-cyan-filter);
     border: none;
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+.featuredCard {
     border-left: 5px solid var(--dark-cyan);
     border-radius: 2px;
+    
 }
 .card-header {
     border-bottom: none;
@@ -95,4 +102,10 @@ h5 {
 }
 .subText {
     opacity: 60%;
+}
+.searchBox {
+    display: none;
+}
+.searchButton {
+    width: fit-content;
 }
