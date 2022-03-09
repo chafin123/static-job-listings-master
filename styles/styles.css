@@ -104,8 +104,19 @@ h5 {
     opacity: 60%;
 }
 .searchBox {
-    display: none;
+    display:  none;
 }
 .searchButton {
     width: fit-content;
+    z-index: 1;
+}
+.cancelButton {
+    color: white;
+    background: var(--dark-cyan);
+    position: relative;
+    left: -3px;
+}
+.clear {
+    float: right;
+    color: var(--dark-cyan);
 }
