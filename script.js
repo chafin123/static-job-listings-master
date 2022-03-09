@@ -80,7 +80,7 @@ const displayListings = (jobObjectArray) => {
                         </div>
                     </div>
                     <div class="row text-start positionHeader">
-                        <h5>${key[4]}</h5>
+                        <h5 class="title">${key[4]}</h5>
                     </div>
                     <div class="row text-start">
                         <div class="col">
@@ -139,7 +139,6 @@ function searchBoxFunction () {
             <span class ="badge cancelButton" onclick="removeFilterFromSearchBar('${filter}')">
                     X
                 </span>
-                
                 `
                 ) 
             })    

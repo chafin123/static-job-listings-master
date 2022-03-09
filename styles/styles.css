@@ -16,6 +16,7 @@ h5 {
     font-weight: 700
 }
 .attribution { 
+    margin-top: 1rem;
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
@@ -55,11 +56,21 @@ h5 {
 .positionHeader {
     margin-top: .5rem;
 }
+.title{
+    width: fit-content ;
+}
+.title:hover {
+    color: var(--dark-cyan);
+}
 .searchBadge {
     background-color: var(--light-cyan-filter);
     color: var(--dark-cyan);
     margin: 1rem 0 0 1rem;
     font-weight: 700;
+}
+.searchBadge:hover {
+    background: var(--dark-cyan);
+    color:white;
 }
 .card {
     box-shadow: 10px 1px 10px var(--light-cyan-filter);
@@ -108,15 +119,29 @@ h5 {
 }
 .searchButton {
     width: fit-content;
-    z-index: 1;
 }
 .cancelButton {
     color: white;
     background: var(--dark-cyan);
     position: relative;
-    left: -3px;
+    left: -4px;
+    border-radius: 0 4px 4px 0;
+}
+.cancelButton:hover{
+    background-color: var(--very-dark-cyan);
 }
 .clear {
+    position: relative;
     float: right;
     color: var(--dark-cyan);
+    bottom: 2.1rem;
+}
+.clear:hover {
+    text-decoration: underline;
+}
+@media only screen and (min-width: 1440px) {
+    .brandThumb {
+        right: 0;
+        bottom: 0;
+    }
 }
